@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruise Based Billing (CBB)</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <header>
+            Coast Area Cruise Based Billing
+        </header>
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="user-type">User Type</label>
+            <select id="user-type" name="user-type">
+                <option value="internal">Internal User: Azure IDIR</option>
+                <option value="external">External User: BCeID</option>
+            </select>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
